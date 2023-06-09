@@ -13,15 +13,7 @@ foreach($seznam as $knihy) {
     echo "<div class='card-body'>
     </div>
     </div>";
-            
-   
-   
- 
-    echo"</div>";
-    
-
-
-    
+    echo"</div>";    
 }
 
 echo "</div>";
