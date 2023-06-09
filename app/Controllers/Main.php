@@ -19,11 +19,11 @@ class Main extends BaseController
         $data["title"] = "edit Page";
         return view('editPage',$data);
     }     
-    public function mainpage ()
+    public function index ()
     {
         $data["seznam"] = $this->AModel->orderBy("idZanr", "nazevZ")->findAll();
         $data["title"] = "Druhy žánrů";
-        return view('mainpage',$data);
+        return view('index',$data);
     }       
     public function addForm()
     {
