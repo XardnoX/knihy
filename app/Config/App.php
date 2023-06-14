@@ -24,7 +24,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'https://xardnox.github.io/knihy';
+    public $baseURL = 'https://localhost/knihy';
 
     /**
      * --------------------------------------------------------------------------
